@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIMXRT106FDVL6B
+D ARM Microcontrollers - MCU i.MXRT106A, USB Fix
+K
+F https://www.nxp.com/docs/en/nxp/data-sheets/IMXRT1060CEC.pdf
+$ENDCMP
+#
+#End Doc Library
