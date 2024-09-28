@@ -4029,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 96.52) (xy 262.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2661bb01-4cef-485f-baef-ab81efc19123")
+	)
+	(wire
+		(pts
 			(xy 214.63 147.32) (xy 229.87 147.32)
 		)
 		(stroke
@@ -4546,16 +4556,6 @@
 			(type default)
 		)
 		(uuid "6ee2f10f-40c2-40b4-8290-a7180dadfd86")
-	)
-	(wire
-		(pts
-			(xy 214.63 96.52) (xy 281.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1f5778-1b8b-4a66-a37c-a9289a158bc6")
 	)
 	(wire
 		(pts
@@ -5429,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 96.52) (xy 281.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d829ce0d-7d1c-4715-baf0-2d65b9d022d2")
+	)
+	(wire
+		(pts
 			(xy 146.05 231.14) (xy 161.29 231.14)
 		)
 		(stroke
@@ -5797,6 +5807,28 @@
 		)
 		(uuid "fcbf68f9-8df2-4797-af4c-fa800e70fa50")
 	)
+	(label "DCMI_SCL"
+		(at 219.71 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "007c0b50-482d-4f03-9d1d-4cc299b7366e")
+	)
+	(label "P0_MOSI"
+		(at 219.71 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "025918a7-5589-4e9e-9914-e8486faa5e53")
+	)
 	(label "SDRAM_DQ7"
 		(at 219.71 83.82 0)
 		(fields_autoplaced yes)
@@ -5807,6 +5839,171 @@
 			(justify left bottom)
 		)
 		(uuid "035fded9-34e1-4330-9d04-b6fb5f1b0a55")
+	)
+	(label "BT_H_WAKE"
+		(at 219.71 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0961b589-11f0-408b-b491-62bba73839c2")
+	)
+	(label "VDD_SNVS_CAP"
+		(at 219.71 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b59e3da-15ce-4544-b527-34d4bfb455a8")
+	)
+	(label "PWM_FSIN"
+		(at 219.71 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13693d26-0518-4b06-8a95-86628626e1c9")
+	)
+	(label "WIFI_CMD"
+		(at 219.71 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1534f1ca-8954-4702-bdfe-7ee8271ccf66")
+	)
+	(label "P12_RST_N"
+		(at 219.71 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e971fa2-3811-4d84-8a83-83c5bb7a16fb")
+	)
+	(label "WIFI_D2"
+		(at 219.71 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35d7fd3c-9753-40ef-98f6-b9903eb17d75")
+	)
+	(label "PMIC_ON_REQ"
+		(at 219.71 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3673081a-8707-4014-9218-f2d45b173f3c")
+	)
+	(label "DCDC_PSWITCH"
+		(at 219.71 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37c7c4ed-a18e-4071-b756-1ce048e2a38d")
+	)
+	(label "P4_SCL"
+		(at 219.71 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37f5a6f0-3914-4ea8-aa2d-323a9775e8e2")
+	)
+	(label "DCMI_D2"
+		(at 219.71 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "382b221f-3160-43dd-9473-bdbdeb376de9")
+	)
+	(label "SD_CLK"
+		(at 219.71 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45db41a6-6ed0-4c5a-ade5-d40e3e11160a")
+	)
+	(label "DCMI_D4"
+		(at 219.71 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ae0e3df-1235-4f9e-915c-85482011422e")
+	)
+	(label "DCMI_D5"
+		(at 219.71 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4caf22d7-9069-482e-ba20-e02c639243a6")
+	)
+	(label "P_FLASH_SCK"
+		(at 219.71 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d3e23ab-0fa9-41ff-8354-a4da7a19e7a1")
+	)
+	(label "SD_CD"
+		(at 219.71 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ef5c01c-2456-4b6c-bb23-ded39bad191f")
 	)
 	(label "SDRAM_DQ6"
 		(at 219.71 86.36 0)
@@ -5819,6 +6016,50 @@
 		)
 		(uuid "5ff91b6f-c44c-4a52-8a00-271a075a2189")
 	)
+	(label "WIFI_D1"
+		(at 219.71 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60349d22-b636-4965-88e6-c9c47467a5e3")
+	)
+	(label "VDD_USB_CAP"
+		(at 219.71 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60a1f225-39e7-4299-bae1-5190821bc319")
+	)
+	(label "BT_UART_RTS_N"
+		(at 219.71 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6127a482-d74a-45fb-912a-63058356aba0")
+	)
+	(label "P6_ADC"
+		(at 219.71 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6421a6fd-324c-4060-87c8-df5dae8e49f5")
+	)
 	(label "VCC_SOC"
 		(at 219.71 88.9 0)
 		(fields_autoplaced yes)
@@ -5829,6 +6070,94 @@
 			(justify left bottom)
 		)
 		(uuid "653de967-0e6b-49b6-813d-7aa8473c30cd")
+	)
+	(label "P1_MISO"
+		(at 219.71 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "677c8501-bf73-4e1b-810b-c48a3410a2ff")
+	)
+	(label "WAKEUP"
+		(at 219.71 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c8466f5-642c-4749-a2c9-296430de911b")
+	)
+	(label "BT_D_WAKE"
+		(at 219.71 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fe174de-0f40-424e-850d-8f0348305fe0")
+	)
+	(label "VCC_SOC"
+		(at 219.71 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "836754f4-29ac-4372-8c18-ed80ce88eb02")
+	)
+	(label "DCDC_LP"
+		(at 219.71 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84c1d91f-44c9-40f9-bd44-90eac94c859d")
+	)
+	(label "P_FLASH_CE"
+		(at 219.71 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c11f2fb-3bbd-4ab3-a991-99262dae6577")
+	)
+	(label "USB_D_P"
+		(at 219.71 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92f86156-ef2c-4f78-af22-882c72ff7996")
+	)
+	(label "SD_DAT1"
+		(at 219.71 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95336fd3-995d-4223-b253-4a23c9454626")
 	)
 	(label "SDRAM_A3"
 		(at 219.71 76.2 0)
@@ -5841,6 +6170,72 @@
 		)
 		(uuid "9a7cdddf-a940-413c-8681-9cad13a6f374")
 	)
+	(label "DCMI_D3"
+		(at 219.71 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d039919-7eec-4db6-8cfc-cad9414d7685")
+	)
+	(label "ONOFF"
+		(at 219.71 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eb8b03a-edb8-4dc9-8f3b-f5a3bdd30c96")
+	)
+	(label "P2_SCLK"
+		(at 219.71 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f193276-8712-47ea-ba2d-51307b9a9d0e")
+	)
+	(label "VCC_SOC"
+		(at 219.71 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4937e3e-7fab-45f1-9f67-6ee68398057c")
+	)
+	(label "P_FLASH_DQS"
+		(at 219.71 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a68df9bc-a696-4d7b-9dc9-ded52eb7952f")
+	)
+	(label "PMIC_STBY_REQ"
+		(at 219.71 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaff1666-9c0b-4b44-8dcd-afd494f3f2c8")
+	)
 	(label "SD_DAT2"
 		(at 219.71 78.74 0)
 		(fields_autoplaced yes)
@@ -5852,6 +6247,149 @@
 		)
 		(uuid "b166e0f3-c0ba-49d6-8ebd-80af1e9e0805")
 	)
+	(label "SD_DAT3"
+		(at 219.71 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6bd2b29-f9dc-4e56-b3df-1698a5276c16")
+	)
+	(label "USB_D_N"
+		(at 219.71 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b88eb5e4-53b3-4c3d-859c-3409028dd903")
+	)
+	(label "DCMI_HSYNC"
+		(at 219.71 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d05d9515-a7e5-46d3-8387-38699defd42b")
+	)
+	(label "DCMI_D0"
+		(at 219.71 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d13f02ed-a8bf-4708-b3c2-c49127a3018f")
+	)
+	(label "DCMI_SDA"
+		(at 219.71 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1aacc14-5fb9-48e9-b5c3-863c33dcdeb5")
+	)
+	(label "BT_UART_CTS_N"
+		(at 219.71 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b24d44-e7f4-4bfd-802c-c00528a76b9f")
+	)
+	(label "SD_DAT0"
+		(at 219.71 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d33c74be-7f25-4ebe-88af-00bbf6fa471a")
+	)
+	(label "WIFI_D3"
+		(at 219.71 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4a823e1-a1cc-42a3-a0fc-36d215cc715a")
+	)
+	(label "VCC_SOC"
+		(at 219.71 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d82fcb53-25f7-4c32-b3e0-5e1b9f2f950a")
+	)
+	(label "SD_CMD"
+		(at 219.71 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc33ddb4-5a6d-4328-ba70-7760e1740ae5")
+	)
+	(label "P5_SDA"
+		(at 219.71 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df0c57c1-b201-454f-bfaa-fb1a2a544ef2")
+	)
+	(label "WIFI_D0"
+		(at 219.71 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9c57d76-db3c-4ebf-84e8-ed6f73d7e84c")
+	)
+	(label "P_FLASH_IO1"
+		(at 219.71 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea5b0a90-a71e-4e10-866c-da62230d338b")
+	)
 	(label "SDRAM_DQML"
 		(at 219.71 81.28 0)
 		(fields_autoplaced yes)
@@ -5862,6 +6400,85 @@
 			(justify left bottom)
 		)
 		(uuid "edab3d7e-1f3b-4f1d-8faf-9bbdcbdcab94")
+	)
+	(label "WIFI_CLK"
+		(at 219.71 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f68b585e-7181-46ed-b751-871c661f0ada")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18e223df-e8bc-4408-83f4-c49d8da0fa0f")
+		(property "Reference" "C1"
+			(at 266.7 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 266.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 97.4852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4898f97-a7da-4e5e-be4d-3259efe833a2")
+		)
+		(pin "1"
+			(uuid "c575665c-ffe7-4d09-a130-b59587353721")
+		)
+		(instances
+			(project ""
+				(path "/0e6bf41c-0828-48cf-94a4-c03c6239e1c0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MIMXRT106FDVL6B:MIMXRT106FDVL6B")
