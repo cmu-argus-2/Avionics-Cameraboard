@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "camera_capture_board.kicad_prl",
+    "filename": "camera-control-board.kicad_prl",
     "version": 3
   },
   "project": {
