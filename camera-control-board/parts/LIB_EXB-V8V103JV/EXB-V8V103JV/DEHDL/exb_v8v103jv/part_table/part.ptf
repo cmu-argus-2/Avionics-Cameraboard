@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EXB_V8V103JV'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "EXB-V8V103JV" (!) = "", "EXB38V472JV", "Other", "667-EXB-V8V103JV", "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-V8V103JV?qs=uA7cY%2Fh6FfV8sjMUFAyjLA%3D%3D", "Resistor Networks & Arrays 10K OHM 5%", "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf", "0 mm"
+END_PART
+
+END.

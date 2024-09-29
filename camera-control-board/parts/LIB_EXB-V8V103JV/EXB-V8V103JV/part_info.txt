@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EXB-V8V103JV
+PartCategory=Resistor Network
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2019-01-03 09:53:04
+Downloaded=2024-09-29 23:15:47
+3D=Y
