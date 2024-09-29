@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "camera_capture_board.kicad_pro",
+    "filename": "camera-control-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "0e6bf41c-0828-48cf-94a4-c03c6239e1c0",
+      "a6ed6f18-4f86-494f-813d-c58250854c51",
       "Root"
     ]
   ],
