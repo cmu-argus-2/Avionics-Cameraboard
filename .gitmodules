@@ -1,0 +1,3 @@
+[submodule "camera-control-board/KiCad-Libraries"]
+	path = camera-control-board/KiCad-Libraries
+	url = https://github.com/cmu-argus-2/KiCad-Libraries.git
