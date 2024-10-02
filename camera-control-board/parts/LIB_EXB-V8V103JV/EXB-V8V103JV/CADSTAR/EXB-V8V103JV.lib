@@ -1,0 +1,16 @@
+.EXB-V8V103JV :1 ;Resistor Networks & Arrays 10K OHM 5%
+EXB38V472JV
+*STM RN
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN EXB-V8V103JV
+~!Mouser Part Number (667-EXB-V8V103JV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-V8V103JV?qs=uA7cY%2Fh6FfV8sjMUFAyjLA%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EXB-V8V103JV)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf)
+~!Height (0mm)
+~!3D_Model (EXB-V8V103JV)
+EXB-V8V103JV
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

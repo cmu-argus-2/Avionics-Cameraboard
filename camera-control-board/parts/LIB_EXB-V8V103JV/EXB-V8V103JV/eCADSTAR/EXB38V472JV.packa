@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EXB-V8V103JV"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "EXB38V472JV")
+        (spec "System")
+    )
+)
