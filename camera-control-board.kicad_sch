@@ -24250,73 +24250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 179.07 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45466137-14c8-4472-b16a-c7531cd73a11")
-		(property "Reference" "SW2"
-			(at 179.07 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KMR2x"
-			(at 179.07 68.0974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mainboard:BTN_KMR2"
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13088010-9253-4862-b88d-09904749b33b")
-		)
-		(pin "2"
-			(uuid "06b1ce8b-80b0-4361-9017-76b7822cf433")
-		)
-		(instances
-			(project "camera-control-board"
-				(path "/a6ed6f18-4f86-494f-813d-c58250854c51"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 156.21 27.94 0)
 		(unit 1)
@@ -25092,7 +25025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cameraboard:CAS-120TA"
+		(property "Footprint" "Argus_Misc:CAS-120TA"
 			(at 217.932 71.12 0)
 			(effects
 				(font
@@ -25632,7 +25565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 278.892 204.47 90)
 			(effects
 				(font
@@ -25838,7 +25771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "IND_1608_TDK"
+		(property "Footprint" "Argus_Misc:IND_1608_TDK"
 			(at 123.19 34.29 0)
 			(effects
 				(font
@@ -26211,6 +26144,74 @@
 			(project "camera-control-board"
 				(path "/a6ed6f18-4f86-494f-813d-c58250854c51"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3c88b0a-b576-44ce-bfd1-b86fbf60ad56")
+		(property "Reference" "SW3"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus_Misc:BTN_KMR2"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f2e98b-b5ef-4ff2-b8ce-c18f5b921f23")
+		)
+		(pin "2"
+			(uuid "317e045d-48f9-4664-803b-45c413c2d7cd")
+		)
+		(instances
+			(project ""
+				(path "/a6ed6f18-4f86-494f-813d-c58250854c51"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -28333,7 +28334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP7366-28W5-7:SOT95P285X140-5N"
+		(property "Footprint" "Argus_ICs:SOT95P285X140-5N"
 			(at 233.68 31.75 0)
 			(effects
 				(font
