@@ -25972,7 +25972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+3.3V"
 			(at 267.97 69.85 0)
 			(effects
 				(font
@@ -29651,7 +29651,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf9cb47f-e24b-41fc-85cf-72b47d86857d")
 		(property "Reference" "#PWR020"
 			(at 143.51 185.42 0)
@@ -29662,12 +29661,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 143.51 176.53 0)
+		(property "Value" "+3.3V"
+			(at 140.462 177.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
