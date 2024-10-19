@@ -598,6 +598,14 @@
     [
       "a6ed6f18-4f86-494f-813d-c58250854c51",
       "Root"
+    ],
+    [
+      "7f7989ce-716b-4dee-8b21-1580ba9b1159",
+      "uController_SD_RAM_Set_1"
+    ],
+    [
+      "80f375c7-7c2c-41b7-9b11-66c921ce8a41",
+      "uController_SD_RAM_Set_2"
     ]
   ],
   "text_variables": {}
